@@ -1,0 +1,97 @@
+ul h3 {
+	list-style:none;
+	cursor: pointer;
+    position: relative;
+	
+}
+h1{
+    color:darkmagenta;
+}
+
+
+.defaultTextBox {
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+	  width: 300px;
+    margin-right: -4px;
+}
+
+
+
+
+ul h3.checked {
+  text-decoration: line-through;
+  
+}
+
+#addTask:hover {
+
+	
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
+	
+
+
+#clearTasks:hover{
+	background-color: #f44336;; /* Red */
+    color: white;
+}
+
+
+
+.button {
+    background-color: #e7e7e7; 
+    border: none;
+    color: #008CBA;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	
+}
+
+.main{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left:5px;
+}
+
+#taskInput,#addTask,#clearTasks,#clearTasksCompleted,#reminder,#select {
+    border-radius: 25px;
+    border: 2px solid #bed4f7;
+}
+
+ul h3.checked::before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 1px;
+    left: -14px;
+    transform: rotate(45deg);
+    height: 14px;
+    width: 5px;
+}
+	
+body {
+    min-width:300px;
+	min-height:600px;
+	background-color:beige;
+    align-items:center;
+    font-family:cursive;
+    font-size:medium;
+    
+    
+    
+}
+
